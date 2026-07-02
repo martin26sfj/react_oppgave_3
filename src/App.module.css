@@ -1,0 +1,48 @@
+.app {
+  --app-bg: #f4f1ea;
+  --app-text: #1c1a16;
+  --app-text-muted: #6b6357;
+  --app-card-bg: #ffffff;
+  --app-border: #ddd6c8;
+  --app-accent: #b9622f;
+
+  min-height: 100vh;
+  background: var(--app-bg);
+  color: var(--app-text);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.app[data-theme="dark"] {
+  --app-bg: #13120f;
+  --app-text: #f0ebe2;
+  --app-text-muted: #9a9589;
+  --app-card-bg: #1e1c18;
+  --app-border: #2e2c27;
+  --app-accent: #b9622f;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.tittel {
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+}
+
+.todoSeksjon {
+  max-width: 600px;
+  margin: 2.5rem auto 0;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.undertittel {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,28 @@
+.seksjon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0 1.5rem;
+}
+
+.tekst {
+  font-size: 0.95rem;
+  color: var(--app-text-muted);
+}
+
+.knapp {
+  background: var(--app-accent);
+  color: var(--app-bg);
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.knapp:hover {
+  opacity: 0.85;
+}
